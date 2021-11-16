@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class= "flexed">
+            <div class="flexed">
+                <div><p>Dojonary</p></div>
+                <input id="searchBar" type="text" placeholder="Search" >
+            </div> 
+            <div> 
+                <button id="login" onclick="toggleLogin();">Login</button>
+            </div>
+           
+        </header>
+        <div id="majorContainer" class= "flexed ">
+            <div class="leftSide flex-col">
+                <div class="defbox1 flexed">
+                    <div class="metainfo flex-col">
+                        <div class="word">Ninja</div>
+                        <div class="wordType">noun</div>
+                        <div class="plural">Plural: <span>ninjas</span></div>
+                        <div><button id="def1" onclick="liked(this);" >13 likes</button></div>
+                    </div>
+                    <div class="wordDef flexed"><p>A practitioner skilled in the <span>Japanese</span>  art of <span>ninjutsu</span> </p></div>
+                </div>               
+                <div class="defbox1 flexed">
+                    <div class="metainfo flex-col">
+                        <div class="word">Ninja</div>
+                        <div class="wordType">noun</div>
+                        <div class="plural">Plural: <span>ninjas</span></div>
+                        <div><button id="def2" onclick="liked(this);">37 likes</button></div>
+                    </div>
+                    <div class="wordDef flexed"><p>A<span >programmer</span>who breaks down problems with  <span>zen</span>-like focus</p></div>
+                </div>                
+            </div>
+            <div class="rightSide">
+                <div class="addDefBox flex-col">
+                    <div class="deftoadd"><h1>Dojonary is defined by <span>you</span> </h1> </div>
+                    <div><button id="addDefinition" onclick="addDefinition();">Add Definition</button></div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

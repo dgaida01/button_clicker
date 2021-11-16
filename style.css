@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 500;
+    font-size: 20pt;
+}
+
+.container{
+    min-height: 500px;
+    height: 500px;
+    background-color: white;
+    margin:0 auto;
+    max-width:700px;
+    padding:0;
+}
+
+.flexed{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.flex-col{
+    display:flex;
+    flex-direction: column;
+}
+/* ========================================================== */
+/* header rules */
+header{
+    background-color: lightgray;
+    height:50px;
+    padding-left:80px;
+    padding-right:20px;         
+}
+header p{
+    font-size: 20pt;
+    font-weight: 700;    
+}
+#searchBar{
+    margin-left: 50px;
+    height: 20px;
+}
+
+#login{
+    background-color: blue;
+    color:white;
+    width:80px;
+    height: 25px;
+}
+
+
+
+
+/* ============================================================= */
+#majorContainer{
+   /* background-color: rgb(199, 199, 32); */
+   height: 400px;
+   align-items: center;
+   margin-top: 20px;
+   gap: 20px;
+}
+
+/* =============================================================== */
+/* Major Container Left side rules */
+   .leftSide{
+       /* background-color: red; */
+      height:400px;
+       flex:2;
+       gap: 20px;
+       
+   }
+
+
+   /* shared definition  */
+   .defbox1{
+       /* background-color: darkcyan; */
+       flex:1;
+       padding-left:10px;
+       border:2px solid black;
+       gap:20px;
+   }
+
+  .metainfo{
+    height: 130px;
+    flex:1;
+    /* border:3px solid black; */
+    justify-content: space-between;
+    text-align: center;
+    /* padding-top: 80px;
+    padding-bottom: 50px */
+}
+.metainfo  button{
+    width:80px;
+    height:25px;
+    box-shadow: 5px 5px black;
+    margin-bottom: 10px;
+    background-color: #ffd966;
+}
+.wordDef{
+    height: 130px;
+    flex: 3;
+    justify-content:  center;
+    /* border: 3px solid black; */
+    
+}
+.wordDef span{
+    text-decoration: underline;
+    color:blue
+}
+.word{
+    font-size:18pt;
+}
+.wordType{
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: bold;
+   
+    
+}
+.plural{
+    font-size: 11pt;
+}
+.plural span{
+    font-style: italic; 
+  }
+
+
+
+
+
+
+   /* .defbox2{
+       background-color: darkmagenta;
+       flex:1;
+   } */
+
+/* ======================================================================== */
+   /* Major Container Right side rules */
+   .rightSide{
+    /* background-color: green; */
+    height:400px;
+    flex:1;
+    justify-content: flex-start;
+    
+      }
+
+   .addDefBox{
+    /* background-color: darkorange;       */
+    height:150px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;  
+    border:2px solid black;
+    padding-top:20px;
+    /* padding-bottom:10px; */
+   }
+   .deftoadd span{
+       font-weight: bold;
+    
+   }
+   .deftoadd{
+       padding-left:15px;
+     
+   }
+      
+
+.rightSide button{
+    height: 30px;
+    width:  150px;
+    background-color:#93c47d;
+    font-weight: bold;
+    box-shadow: 5px 5px black;
+}
+   
+ 
